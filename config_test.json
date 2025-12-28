@@ -1,0 +1,31 @@
+{
+  "tasks": [
+    {
+      "name": "Get latest 5 articles from Gossiping",
+      "type": "get_articles",
+      "board": "Gossiping",
+      "count": 5,
+      "output": "latest_5.json"
+    },
+    {
+      "name": "Search for articles about Nvidia",
+      "type": "search_title",
+      "board": "Gossiping",
+      "keyword": "輝達",
+      "count": 5,
+      "output": "search_nvidia.json"
+    },
+    {
+      "name": "Get specific article",
+      "type": "get_article",
+      "board": "Gossiping",
+      "index": 786786,
+      "output": "article_786786.json"
+    }
+  ],
+  "options": {
+    "save_full_content": true,
+    "save_pushes": true,
+    "delay_between_requests": 1
+  }
+}

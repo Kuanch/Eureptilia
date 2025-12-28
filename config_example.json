@@ -1,0 +1,71 @@
+{
+  "tasks": [
+    {
+      "type": "get_articles",
+      "board": "Gossiping",
+      "count": 10,
+      "output": "gossiping_latest.json"
+    },
+    {
+      "type": "get_articles",
+      "board": "Gossiping",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "output": "gossiping_evening.json"
+    },
+    {
+      "type": "search_title",
+      "board": "Gossiping",
+      "keyword": "台積電",
+      "count": 20,
+      "output": "search_tsmc.json"
+    },
+    {
+      "type": "search_title",
+      "board": "Gossiping",
+      "keyword": "台積電",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "output": "search_tsmc_daytime.json"
+    },
+    {
+      "type": "search_author",
+      "board": "Gossiping",
+      "author": "CodingMan",
+      "start_time": "18:00",
+      "end_time": "23:59",
+      "output": "author_codingman_evening.json"
+    },
+    {
+      "type": "search_comment",
+      "board": "Gossiping",
+      "keyword": "推",
+      "count": 50,
+      "output": "comment_search.json"
+    },
+    {
+      "type": "search_comments_by_author",
+      "board": "Gossiping",
+      "author": "sixigma",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "output": "sixigma_comments.json"
+    },
+    {
+      "type": "get_article",
+      "board": "Gossiping",
+      "index": 786786,
+      "output": "article_786786.json"
+    },
+    {
+      "type": "get_articles_by_date",
+      "board": "Gossiping",
+      "start_date": "2025-10-01",
+      "end_date": "2025-10-04",
+      "output": "articles_october.json"
+    }
+  ],
+  "options": {
+    "delay_between_requests": 1
+  }
+}
