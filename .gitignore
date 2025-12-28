@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.log
+.DS_Store
+
+# Credentials
+my_private_password.json
+
+# Output files
+search_comments_by_author.json
